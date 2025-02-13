@@ -1,0 +1,22 @@
+{
+  "name": "ai-doc-generator-deploy",
+  "version": "1.0.0",
+  "description": "AWS CDK deployment for AI Documentation Generator",
+  "main": "bin/app.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "deploy": "./deploy.sh"
+  },
+  "dependencies": {
+    "aws-cdk": "^2.178.2",
+    "aws-cdk-lib": "^2.178.2",
+    "constructs": "^10.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.18.63",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  }
+}
